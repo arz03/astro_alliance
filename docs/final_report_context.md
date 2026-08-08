@@ -44,11 +44,11 @@ Describe the leakage-safe modeling path:
 
 ### 5. Evaluation and Interpretation
 Include the key metrics and comparisons:
-- base HGB: R² 0.8827, MAE 0.2104, RMSE 0.3069
-- tuned HGB: R² 0.9178, MAE 0.1682, RMSE 0.2570
-- Random Forest: R² 0.8779, MAE 0.2091, RMSE 0.3131
-- two-stage pipeline: R² 0.9150, MAE 0.1723
-- cross-validation stability: HGB CV R² 0.8817 ± 0.0047
+- base HGB: R² 0.8839, MAE 0.2086, RMSE 0.3054
+- tuned HGB: R² 0.9193, MAE 0.1675, RMSE 0.2546
+- Random Forest: R² 0.8780, MAE 0.2091, RMSE 0.3130
+- two-stage pipeline: R² 0.9228, MAE 0.1589, RMSE 0.2490
+- cross-validation stability: HGB CV R² 0.8799 ± 0.0056
 
 Explain the residual behavior, model comparison, feature importance, and regime-wise performance.
 
